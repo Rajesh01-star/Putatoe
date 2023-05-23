@@ -1,0 +1,9 @@
+TopNavBar
+color
+	#11b899
+Icons 
+	location - IoLocation
+	notification - IoIosNotifications
+	search - IoSearch
+	voice - MdOutlineKeyboardVoice
+	cart - BsFillCartFill

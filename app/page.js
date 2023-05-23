@@ -5,20 +5,18 @@ import BottomNav from "./components/BottomNav"
 import Category from "./components/Category"
 import Service from "./components/Service"
 import PutatoeBtn from "./components/PutatoeBtn"
-import { categoryObjects } from "./support/objectSupply"
+import { categoryObjects,ProductsObject,ProvidersObject,serviceObject } from "./support/objectSupply"
 
 export default function Home() {
   return (
-  <div className="relative">
+  <div className="relative bg-[#f0fefa]">
   <TopNavbar />
   <Hero />
-  <hr className="border-8 rounded-lg" />
   <Menu />
-  <hr className="border-8 rounded-lg" />
   <Category heading="Shop by category" generalObjects={categoryObjects}/>
-  <Category heading="Popular Service Products" generalObjects={categoryObjects}/>
-  <Category heading="All Popular Service Providers" generalObjects={categoryObjects}/>
-  <Service generalObjects={categoryObjects}/>
+  <Category heading="Popular Service Products" generalObjects={ProductsObject}/>
+  <Category heading="All Popular Service Providers" generalObjects={ProvidersObject}/>
+  <Service generalObjects={serviceObject}/>
   <PutatoeBtn />
   <BottomNav />
   </div>
