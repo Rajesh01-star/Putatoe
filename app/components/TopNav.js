@@ -24,7 +24,7 @@ export default function Navbar(){
         <span className="col-span-1">
             <MdSearch color="#11b899" size={"35px"} className=" hover:scale-105 transition-all ease-in-out cursor-pointer"/>
         </span>
-        <input className="col-span-3 active:border-white focus:outline-none border-none" placeholder="Search for Products..." />
+        <input className="w-full col-span-3 active:border-white focus:outline-none border-none" placeholder="Search for Products..." />
         </div>        
         <div className="col-span-1 text-center">
             <MdSettingsVoice color="white" size={"35px"} className=" hover:scale-105 transition-all ease-in-out cursor-pointer" />
